@@ -1,0 +1,333 @@
+/*Declaracion de variables de colores de la página y colores que me parecieron interesantes*/
+:root{
+     --colorFondoPrincipal:  #f5f7ff   ; /* #182540
+     verde oscuro:#649a9a
+     Azul: #2849A8
+     naranja:#F45D39
+     background-color: #1A2E52
+     blanco: #F0F1F2*/
+     --borderBoxes: #182540; 
+     --colorH3: #000;
+     --backBoxes: #FFF;
+}
+
+/*Ajustes de video y nav responsive*/
+body{
+    margin-top:55px;
+    background-color: var(--colorFondoPrincipal);
+}
+
+.row {
+     display: flex;
+     width: 100%;
+}
+
+.holaGerardo {
+  font-family: 'Work Sans', sans-serif;
+  position: absolute;
+  top: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+  color: #FAFAFA;
+  filter: drop-shadow(5px 5px 5px #000);
+}
+
+#buttonCV a{
+  text-decoration:none;
+  color:#FFF;
+}
+
+
+@media screen and (min-device-width: 768px) {
+.holaGerardo{
+margin-left: auto;
+margin-right: auto;
+font-size: 80px;
+}
+}
+
+   .header {
+     height: 100vh;
+     display: flex;
+   }
+   
+   .content {
+     margin: auto;
+   }
+   
+   .header-video {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100vh;
+     overflow: hidden;
+   }
+   
+   .header-video video {
+     min-width: 100%;
+     min-height: 100vh;
+     object-fit: cover;
+   }
+   
+   .header-overlay {
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+
+   }
+   
+   .header-content {
+     z-index: 2;
+     margin-left: 60px;
+     font-size: 50px;
+     font-family: "Anonymous Pro", monospace;
+   }
+
+   #textPortfolio {
+     position:relative;
+     font-size: 20px;
+     letter-spacing: 2px;
+
+}
+
+
+h1{
+     font-family: 'Montserrat', sans-serif;
+     display: Flex;
+     color: #FAFAFA;
+     font-size: 35px;
+     filter: drop-shadow(3px 3px 3px #000);
+}
+
+
+
+#photoMe {
+  margin-top: 35px;
+  width: 100%;
+  display: block;
+  border: 1px solid var(--borderBoxes);
+  }
+
+h3{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 2px; 
+  color: var(--colorH3);
+  filter: drop-shadow(1.5px 1.5px 1.5px #000);
+  padding-top: 75px;
+  padding-bottom: 25px;
+}
+
+h4{
+     position: relative;
+     left: 30%;
+}
+
+h5{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+h5, h6, .accordion-header {
+  color: var(--colorH3);
+  filter: drop-shadow(.5px .5px .5px #000);
+}
+
+hr{
+  border: 0.1px solid var(--borderBoxes);
+}
+
+
+#aboutMe{ 
+  border: #b6b6b6 solid 1px;
+  width: 100%;
+  margin-top: 0px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 3px;
+  background-color: var(--backBoxes);
+  text-align: justify;
+    }
+  
+
+#aboutMe p{
+  color: var(--colorH3);
+  filter: drop-shadow(.5px .5px .5px #000);
+}
+
+
+    @media screen and (min-device-width: 990px){
+  #aboutMe {
+    margin-top:0;
+  }
+}
+
+#contact{
+ width: 100;
+ display:block;
+ align-items: center;
+}
+
+
+.skills_dev {
+ border: solid 1px var(--borderBoxes);
+ border-radius: 15px;
+ box-shadow: 5px 5px 0px 0px var(--borderBoxes) ;
+ padding: 10px;
+ margin: 30px;
+ height: 100px;
+ width: 100px;
+}
+
+
+
+
+.collapsed, .accordion-body {
+  background-color: 0 ;
+  }
+
+  .accordion-button {
+    color: var(--colorH3);
+    
+  }
+
+  .accordion-button p{
+   color: var(--colorFondoPrincipal)
+  }
+
+  /*Experiencia laboral*/
+
+  #expLaboral, #expOthers{
+    margin: 20px;
+    position:relative ;
+    width: 100%;
+    border: #bebebe solid 1px;
+    padding: 100px;
+    padding-top: 30px;
+    background-color: var(--backBoxes );
+    border-radius:20px;
+
+  }
+
+  @media screen and (min-device-width: 0px) and (max-device-width: 540px){
+    #expLaboral, #expOthers{
+      margin: 0px;
+      position:relative ;
+      width: 100%;
+      border: #bebebe solid 1px;
+      padding: 25px;
+      padding-top: 0px;
+      background-color: var(--backBoxes );
+      border-radius:20px;
+  
+    }
+
+  
+  
+  }
+
+
+
+  #expLaboral p{
+    color: var(--colorH3);
+    filter: drop-shadow(.5px .5px .5px #000);
+
+  }
+
+  #expOthers p{
+    color: var(--colorH3);
+    filter: drop-shadow(.5px .5px .5px #000);
+  }
+
+
+ .imgMunicipio  {
+    height: 160px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto; 
+    padding-bottom: 50px;
+  }
+
+  .imgAteneo{
+    height: 200px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto; 
+    padding-bottom: 50px;
+  }
+
+  .ateneocra{
+    height: 200px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto; 
+    padding-bottom: 50px;
+  }
+
+
+  .imgUTN  {
+    height: 120px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto; 
+    padding-bottom: 50px;
+  }
+ .imgPL {
+    height: 170px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto; 
+    padding-bottom: 50px;
+  }
+
+.imgLAR{
+  height: 150px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto; 
+  padding-bottom: 50px;
+}
+
+.mx-auto{
+  display: flex;
+  background-color: var(--backBoxes);
+}
+
+
+
+#contact img{
+  height: 80px;
+  padding:10px;
+  display: flex;
+  position: relative;
+  flex: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact{
+  text-decoration: none;
+  padding: 50px;
+  text-align: center;
+  }
+
+#contactMe{
+  height: 90vh;
+  background-color: var(--backBoxes);
+}
+
+footer{
+  background-color: #182540;
+}
+footer {
+  text-decoration: none;
+}
+
+#footerText{
+  font-size: 15px;
+    color:#fff;
+}
