@@ -226,6 +226,13 @@ hr{
   
     }
 
+    footer{
+      margin-top: 700px;
+      margin-bottom: 0px;
+      background-color: #182540;
+      text-decoration: none;
+    }
+
   
   
   }
@@ -316,14 +323,14 @@ hr{
   }
 
 #contactMe{
-  height: 90vh;
+  height: 50vh;
   background-color: var(--backBoxes);
 }
 
 footer{
+
+  margin-bottom: 0px;
   background-color: #182540;
-}
-footer {
   text-decoration: none;
 }
 
